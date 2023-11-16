@@ -17,8 +17,7 @@ print(iris.data.shape)
 
 # Step 2: Model
 selected_model = 'RandomForest'
-if selected_model == 'RandomForest' :
-    model = RandomForestClassifier()
+model = RandomForestClassifier()
 
 
 
