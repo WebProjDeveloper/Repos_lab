@@ -4,7 +4,7 @@ import streamlit as st
 import yfinance as yf
 
 st.header('Stock price prediction')
-st.image('datasets/bot.jpeg')
+st.image('Lab2/datasets/bot.jpeg')
 symbol = 'AAPL'
 symbol = st.sidebar.selectbox('Select your stock symbol', ['AAPL', 'GOOGL', 'MSFT', 'TSLA', 'IAM', 'MSA'])
 st.write(symbol)
