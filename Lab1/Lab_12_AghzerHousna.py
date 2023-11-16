@@ -57,7 +57,7 @@ st.write(df)
 st.subheader('Prediction')
 prediction = model.predict(df)
 st.write(iris.target_names[prediction])
-st.image("images/"+iris.target_names[prediction][0]+".png")
+st.image("Lab1/images/"+iris.target_names[prediction][0]+".PNG")
 selected_model = st.sidebar.selectbox('Select a learning model', ['RandomForest', 'Decisiontree', 'KNN', 'SVM'])
 st.write('Selected model is : ', selected_model)
 
