@@ -31,7 +31,7 @@ print(iris.target_names[prediction])
 
 # Model Deployment with streamlit: streamlit run Lab_12_AghzerHousna.py
 st.header('iris classification model')
-st.image('images/iris_categories.png')
+st.image('Lab1/images/iris_categories.png')
 # st.write(iris.data)
 # st.write(iris.feature_names)
 def user_input():
